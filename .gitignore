@@ -6,4 +6,4 @@
 /todo_project/run.atom-live-server.json
 .vscode/*
 template/.vscode/*
-
+**/node_modules/*
