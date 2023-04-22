@@ -32,5 +32,8 @@
         "ttf2woff": "^3.0.0",
         "ttf2woff2": "^4.0.4",
         "webp-converter": "^2.2.3"
+    },
+    "dependencies": {
+        "bulma": "^0.9.4"
     }
 }
