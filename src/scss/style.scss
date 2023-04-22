@@ -10,9 +10,36 @@
 }
 
 @import "fonts";
+@import "node_modules/bulma/sass/utilities/initial-variables";
 
+// custom overrides and general styles
+@import "node_modules/bulma/bulma";
+
+html,
 body {
-    background-color: ghostwhite;
-    font-style: 15px;
+    height: 100%;
+    overflow-y: hidden;
     display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    height: 20vh;
+}
+
+.main-content{
+    height: 70vh;
+}
+
+footer{
+    margin-top: 1.5vh;
+    height: 10vh;
+}
+
+.scrollable{
+    overflow-y: auto;
+}
+
+.is-sidebar-menu{
+    height: 100%;
 }
