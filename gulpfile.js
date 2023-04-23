@@ -1,4 +1,4 @@
-const project_folder = "dist";
+const project_folder = "docs";
 const source_folder = "src";
 
 const fs = require('fs')
