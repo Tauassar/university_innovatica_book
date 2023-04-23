@@ -1,9 +1,9 @@
 // prettier-ignore
 
 function set_current_menu_item() {
-    const path = `[href="${window.location.pathname}"]`;
+    const splitted_path = window.location.pathname.split('/')
+    const path = `[href="./${splitted_path[splitted_path.length-1]}"]`;
     let get = document.querySelectorAll(path);
-    console.log("The element fetched by href attribute is:", get);
     get[0].classList.add("is-active");
 }
 set_current_menu_item()
