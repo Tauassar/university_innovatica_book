@@ -9941,14 +9941,27 @@ body {
   height: 10vh;
 }
 
-footer {
+.navbar a {
+  color: inherit;
+}
+
+.main-display {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 90vh;
+  overflow: hidden;
+}
+
+footer {
+  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 10vh;
+  height: 0;
 }
 
 .scrollable {
