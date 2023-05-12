@@ -9945,6 +9945,10 @@ body {
   color: inherit;
 }
 
+.title {
+  color: #5432a8 !important;
+}
+
 .main-display {
   display: -webkit-box;
   display: -ms-flexbox;
